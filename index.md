@@ -11,6 +11,8 @@ The posts you will find will range from projects I create, opinion blogs, and ev
 
 If you wish to reach out to me, please do so via email (amart89531@gmail.com) or via LinkedIn (see bottom of page). I am happy to help out anyone in anyway I can!
 
+DISCLAIMER: None of the text / referenced code is generated or involves LLMs in any capacity. While they are very helpful, the purpose of this blog is to maximize learning!
+
 </div>
 
 ---
