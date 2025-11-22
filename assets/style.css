@@ -48,8 +48,8 @@ header h1 a {
 }
 
 header .site-icon {
-  width: 40px;
-  height: auto;
+  width: 32px; 
+  height: 32px;
   display: block;
   margin: 0 auto 0.5rem auto;
 }
@@ -57,10 +57,12 @@ header .site-icon {
 /* Small Devices */
 @media (max-width: 600px) {
   header .site-icon {
-    width: 30px;
+    width: 24px;
+    height: 24px;
     margin-bottom: 0.3rem;
   }
 }
+
 
 /* ----------------- Navigation ----------------- */
 nav {
