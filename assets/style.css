@@ -47,6 +47,21 @@ header h1 a {
   text-decoration: none;
 }
 
+header .site-icon {
+  width: 80px;
+  height: auto;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+/* Small Devices */
+@media (max-width: 600px) {
+  header .site-icon {
+    width: 50px;        
+    margin-bottom: 0.8rem;
+  }
+}
+
 /* ----------------- Navigation ----------------- */
 nav {
   display: flex;
