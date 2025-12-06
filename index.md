@@ -25,7 +25,7 @@ If you wish to reach out to me, please do so via email (amart89531@gmail.com) or
   {% assign latest_post = site.posts | first %}
   <div class="post-preview">
     {% if latest_post.gif %}
-      <img src="/{{ latest_post.gif }}" alt="{{ latest_post.title }}">
+      <img src="{{ latest_post.gif }}" alt="{{ latest_post.title }}">
     {% endif %}
     <div class="post-info">
       <h2><a href="{{ latest_post.url }}">{{ latest_post.title }}</a></h2>
@@ -39,7 +39,7 @@ If you wish to reach out to me, please do so via email (amart89531@gmail.com) or
   {% if featured_post %}
   <div class="post-preview">
     {% if featured_post.gif %}
-      <img src="/{{ featured_post.gif }}" alt="{{ featured_post.title }}">
+      <img src="{{ featured_post.gif }}" alt="{{ featured_post.title }}">
     {% endif %}
     <div class="post-info">
       <h2><a href="{{ featured_post.url }}">{{ featured_post.title }}</a></h2>

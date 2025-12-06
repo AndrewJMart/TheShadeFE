@@ -2,7 +2,7 @@
 layout: post
 title: "Beginning Unix Networking"
 date: 2025-12-01
-gif: assets/gifs/Networking.gif
+gif: /assets/gifs/Networking.gif
 excerpt: Cobbling Together My Beginner's Understanding Of Unix Networking.
 featured: false
 ---

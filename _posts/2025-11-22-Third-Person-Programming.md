@@ -2,7 +2,7 @@
 layout: post
 title: "Resist Third Person Programming"
 date: 2025-11-22
-gif: assets/gifs/Driving.gif
+gif: /assets/gifs/Driving.gif
 excerpt: A Plea To Those Early In Their Career (Like Me).
 featured: false
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "Goals Of This Blog"
 date: 2025-11-01
-gif: assets/gifs/Goals.gif
+gif: /assets/gifs/Goals.gif
 excerpt: Insights On Why I Decided To Create This Blog.
 featured: true
 ---
