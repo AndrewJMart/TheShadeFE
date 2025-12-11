@@ -13,44 +13,40 @@ If you wish to reach out to me, please do so via email (amart89531@gmail.com) or
 
 <br><br>
 
-<strong> DISCLAIMER: None of the text / referenced code is generated or involves LLMs in any capacity. While they are very helpful, the purpose of this blog is to maximize learning! </strong>
+<strong>DISCLAIMER: None of the text / referenced code is generated or involves LLMs in any capacity. While they are very helpful, the purpose of this blog is to maximize learning!</strong>
 
 </div>
-
----
 
 <div class="post-section">
 
   <h2 class="post-section-title">Latest Post</h2>
   {% assign latest_post = site.posts | first %}
-  <a href="{{ latest_post.url }}" class="post-preview-link">
-    <div class="post-preview">
+  {% if latest_post %}
+    <a href="{{ latest_post.url }}" class="post-preview-link">
       {% if latest_post.gif %}
-        <img src="{{ latest_post.gif }}" alt="{{ latest_post.title }}">
+        <img src="{{ latest_post.gif }}" alt="{{ latest_post.title }} preview">
       {% endif %}
       <div class="post-info">
         <h2>{{ latest_post.title }}</h2>
-        <p>{{ latest_post.excerpt | strip_html | truncate: 150 }}</p>
         <p class="post-date">{{ latest_post.date | date: "%B %d, %Y" }}</p>
+        <p>{{ latest_post.excerpt | strip_html | truncate: 150 }}</p>
       </div>
-    </div>
-  </a>
+    </a>
+  {% endif %}
 
   <h2 class="post-section-title">Featured Post</h2>
   {% assign featured_post = site.posts | where: "featured", true | first %}
   {% if featured_post %}
-  <a href="{{ featured_post.url }}" class="post-preview-link">
-    <div class="post-preview">
+    <a href="{{ featured_post.url }}" class="post-preview-link">
       {% if featured_post.gif %}
-        <img src="{{ featured_post.gif }}" alt="{{ featured_post.title }}">
+        <img src="{{ featured_post.gif }}" alt="{{ featured_post.title }} preview">
       {% endif %}
       <div class="post-info">
         <h2>{{ featured_post.title }}</h2>
-        <p>{{ featured_post.excerpt | strip_html | truncate: 150 }}</p>
         <p class="post-date">{{ featured_post.date | date: "%B %d, %Y" }}</p>
+        <p>{{ featured_post.excerpt | strip_html | truncate: 150 }}</p>
       </div>
-    </div>
-  </a>
+    </a>
   {% endif %}
 
 </div>
