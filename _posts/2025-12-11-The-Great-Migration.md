@@ -21,7 +21,7 @@ Surprisingly, not a whole lot. The process was easier than I expected.
 
 To host a website, you need an actual machine serving your files. You can technically host a site from a personal laptop, but it will not be reliable and it will not have proper uptime. A cloud server is a much better choice.
 
-Since I did not want to pay for hosting and this site is not exactly the center of the internet, I used the Oracle Cloud "Always Free Tier." It provides a Linux VM with a public IP, which is perfect for pointing your domain to. If you want to see it for yourself, check out https://www.oracle.com/cloud/free/.
+Since I did not want to pay for hosting and this site is not exactly the center of the internet, I used the Oracle Cloud "Always Free Tier." It provides a Linux VM with a public IP, which is perfect for pointing your domain to. If you want to see it for yourself, check out [Oracle Free Server](https://www.oracle.com/cloud/free/).
 
 ### Step 2: Pointing Your Domain to the Correct IP
 
