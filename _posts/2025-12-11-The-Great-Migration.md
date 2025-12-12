@@ -72,7 +72,7 @@ This entire process taught me a lot about what self hosting actually involves. E
 
 ## What Is Next?
 
-This is the question I hear constantly at work. My next plan is to build a C++ backend using Crow. Yes, I am intentionally using C++ for my backend. Do not ask me to use Rust. I want to turn it into a weekly newsletter system for this site.
+Such is always the question from my mentor Travis (Do You Need A Task? ☠️). My next plan is to build a C++ backend using Crow. Yes, I am intentionally using C++ for my backend. Do not ask me to use Rust. I want to turn it into a weekly newsletter system for this site.
 
 I also want to keep exploring lower level topics like operating systems and compilers. I found some great video series on both and plan to implement projects in those areas.
 
