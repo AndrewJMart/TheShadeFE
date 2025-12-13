@@ -265,9 +265,15 @@ footer a:active {
   .newsletter-form {
     flex-direction: column;
     gap: 0.8rem;
+    align-items: center;
   }
 
   .newsletter-form input {
     width: 100%;
+    max-width: 300px;
+  }
+
+  .newsletter-form button {
+    width: auto;
   }
 }
