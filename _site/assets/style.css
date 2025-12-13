@@ -269,11 +269,16 @@ footer a:active {
   }
 
   .newsletter-form input {
-    width: 100%;
+    width: 90%;
     max-width: 300px;
+    padding: 0.6rem 0.8rem;
+    font-size: 0.95rem;
   }
 
   .newsletter-form button {
-    width: auto;
+    width: 60%;
+    max-width: 180px;
+    padding: 0.6rem 0.8rem;
+    font-size: 0.95rem;
   }
 }
