@@ -55,7 +55,7 @@ If you wish to reach out to me, please do so via email (amart89531@gmail.com) or
   <h2>Join The Newsletter</h2>
   <p>Get updates on new posts, projects, and behind-the-scenes content.</p>
 
-  <form action="/newsletter" method="POST" class="newsletter-form">
+  <form id="newsletter-form" class="newsletter-form">
     <input 
       type="email" 
       name="email" 
@@ -66,3 +66,29 @@ If you wish to reach out to me, please do so via email (amart89531@gmail.com) or
   </form>
 </div>
 
+<script>
+document.getElementById("newsletter-form").addEventListener("submit", async (e) => {
+  e.preventDefault();
+
+  const email = e.target.email.value;
+
+  try {
+    const res = await fetch("/newsletter", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email })
+    });
+
+    if (res.ok) {
+      alert("Subscribed successfully!");
+      e.target.reset();
+    } else {
+      alert("Subscription failed.");
+      console.error(await res.text());
+    }
+  } catch (err) {
+    alert("Error submitting form.");
+    console.error(err);
+  }
+});
+</script>
