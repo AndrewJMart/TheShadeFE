@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Foray Into WebDev - CompDoku.com"
-date: 2025-12-30
+date: 2026-2-12
 gif: /assets/gifs/Sudoku.gif
 excerpt: Creating an MVP Competitive Sudoku App.
 featured: false
