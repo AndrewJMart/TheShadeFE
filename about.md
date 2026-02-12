@@ -41,7 +41,7 @@ title: About
             </p>
             <span class="box-link">View project</span>
         </a>
-        <a href="nttps://compdoku.com" class="project-box" target="_blank" rel="noopener noreferrer">
+        <a href="https://compdoku.com" class="project-box" target="_blank" rel="noopener noreferrer">
             <h4 class="box-title">Competitive Sudoku</h4>
             <p class="box-description">
                 An MVP version of an online Sudoku that allows people to practice and quickly play others! More features are intended to come soon, like difficulty, logins, and leaderboards.
