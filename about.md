@@ -41,12 +41,12 @@ title: About
             </p>
             <span class="box-link">View project</span>
         </a>
-        <!-- <a href="" class="project-box" target="_blank" rel="noopener noreferrer">
-            <h4 class="box-title">Project 2</h4>
+        <a href="nttps://compdoku.com" class="project-box" target="_blank" rel="noopener noreferrer">
+            <h4 class="box-title">Competitive Sudoku</h4>
             <p class="box-description">
-                Add your project description here.
+                An MVP version of an online Sudoku that allows people to practice and quickly play others! More features are intended to come soon, like difficulty, logins, and leaderboards.
             </p>
             <span class="box-link">View project</span>
-        </a> -->
+        </a>
     </div>
 </div>
