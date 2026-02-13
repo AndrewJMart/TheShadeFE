@@ -34,3 +34,7 @@ For now, I will put this project on the backburner, however I am sure I will com
 Here Is The [Website](https://compdoku.com)
 
 Here Is The [Website Code](https://github.com/AndrewJMart/CompDoku)
+
+# Special Shout Out
+
+This year has presented special challenges of imposter syndrome, fatigue, and stress. As always, I want to give a shoutout to the person who inspired this blog for always anchoring me. My growth, positive mindset, and love for learning wouldn't be achievable if not for you.
