@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Why Learning Computer Networking"
+title: "Why Learn Computer Networking"
 date: 2026-4-18
 gif: /assets/gifs/LearningNetworking.gif
 excerpt: Continuing My Journey For Knowledge.
